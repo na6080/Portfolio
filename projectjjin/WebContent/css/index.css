@@ -1,0 +1,24 @@
+nav.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+button.btn.btn-outline-success {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#images {
+  position: relative;
+  top: 40px;
+}
+
+.nav-item dropdown{
+  display: flex;
+  justify-content: center;
+}
+
+

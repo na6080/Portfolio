@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 및 회원가입</title>
+<link rel="stylesheet" type="text/css" href="../css/sign.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="../js/sign.js"></script>
+</head>
+<body>
+
+<section class="container">
+  <article class="half">
+    <h1>Show Dream</h1>
+    <div class="tabs">
+      <span class="tab signin active"><a href="#signin">로그인</a></span>
+      <span class="tab signup"><a href="#signup" onclick="switchTab('signup')">회원가입</a></span>
+    </div>
+    <div class="content">
+      <div class="signin-cont cont">
+        <form action="#" method="post" enctype="multipart/form-data">
+          <input type="email" name="email" id="email" class="inpt" required="required" placeholder="Your email">
+          <label for="email">이메일</label>
+          <input type="password" name="password" id="password" class="inpt" required="required" placeholder="Your password">
+          <label for="password">비밀번호</label>
+          <input type="checkbox" id="remember" class="checkbox" checked>
+          <label for="remember">기억하기</label>
+          <div class="submit-wrap">
+            <input type="submit" value="Sign in" class="submit"  id="login">
+            <a href="#" class="more">비밀번호 찾기</a>
+          </div>
+        </form>
+      </div>
+      <div id="signup" class="signup-cont cont">
+        <form action="#" method="post" enctype="multipart/form-data">
+          <input type="name" name="name" id="name" class="inpt" required="required" placeholder="Your name">
+          <label for="name">이름</label>
+          <input type="email" name="email" id="email" class="inpt" required="required" placeholder="Your email">
+          <label for="email">이메일</label>
+          <input type="password" name="password" id="password" class="inpt" required="required" placeholder="Your password">
+          <label for="password">비밀번호</label>
+          <div class="submit-wrap">
+            <input type="submit" value="Sign up" class="submit" onclick="switchTab('signin')">
+            <a href="#" class="more">Terms and conditions</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </article>
+  <div class="half bg"></div>
+</section>
+</body>
+</html>

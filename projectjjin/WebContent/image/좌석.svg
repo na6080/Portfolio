@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="227" height="29" viewBox="0 0 227 29">
+  <g id="그룹_307" data-name="그룹 307" transform="translate(-14 -47)">
+    <g id="사각형_1922" data-name="사각형 1922" transform="translate(45 51)" fill="#f22713" stroke="#f22713" stroke-width="1">
+      <rect width="25" height="25" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="24" height="24" rx="4.5" fill="none"/>
+    </g>
+    <g id="사각형_1922-2" data-name="사각형 1922" transform="translate(80 51)" fill="#ff9924" stroke="#ff9924" stroke-width="1">
+      <rect width="25" height="25" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="24" height="24" rx="4.5" fill="none"/>
+    </g>
+    <g id="사각형_1922-3" data-name="사각형 1922" transform="translate(115 51)" fill="#ffe647" stroke="#ffe647" stroke-width="1">
+      <rect width="25" height="25" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="24" height="24" rx="4.5" fill="none"/>
+    </g>
+    <g id="사각형_1922-4" data-name="사각형 1922" transform="translate(150 51)" fill="#87d37c" stroke="#87d37c" stroke-width="1">
+      <rect width="25" height="25" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="24" height="24" rx="4.5" fill="none"/>
+    </g>
+    <g id="사각형_1922-5" data-name="사각형 1922" transform="translate(185 51)" fill="#00b16a" stroke="#00b16a" stroke-width="1">
+      <rect width="25" height="25" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="24" height="24" rx="4.5" fill="none"/>
+    </g>
+    <text id="_" data-name="👍" transform="translate(216 69)" font-size="20" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="0" y="0">👍</tspan></text>
+    <text id="_2" data-name="👎" transform="translate(14 71)" font-size="20" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="0" y="0">👎</tspan></text>
+  </g>
+</svg>

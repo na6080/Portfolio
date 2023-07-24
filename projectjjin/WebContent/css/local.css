@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+h3{
+	position: absolute;
+ 	top: 5%;
+}
+
+#home{
+	position: absolute;
+ 	top: 5%;
+}
+
+nav.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+button.btn.btn-outline-success {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.nav-item dropdown{
+  display: flex;
+  justify-content: center;
+}
+
+#imagea{
+position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+#imageb{
+position: absolute;
+  top: 50%;
+  left: 30%;
+}
+
+#imagec{
+position: absolute;
+  top: 80%;
+  left: 30%;
+}
+
+#imaged{
+position: absolute;
+  top: 110%;
+  left: 30%;
+}
+
+#imagee{
+position: absolute;
+  top: 140%;
+  left: 30%;
+}
+
+ #page {
+   position: absolute;
+   margin-top:60%;
+   margin-left:50%;
+   
+  }

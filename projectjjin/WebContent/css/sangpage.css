@@ -1,0 +1,121 @@
+@charset "UTF-8";
+nav.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+button.btn.btn-outline-success {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.nav-item dropdown{
+  display: flex;
+  justify-content: center;
+}
+
+#image1{
+	width: 600px;
+	height:800px;
+	position : absolute;
+	left: 25%;
+	top: 25%;
+}
+
+#young{
+   width :600px;
+   height :400px;
+   position : absolute;
+   top : 40%; 
+   left : 65%;
+   transform: translate(-50%,-50%);
+}
+
+#jaone{
+   width :1000px;
+   height :50px;
+   position : absolute;
+   top : 20%; 
+   left : 32%;
+   font-size : 20px;
+   font-weight: bold;
+}
+
+#jatwo{
+   width :1000px;
+   height :50px;
+   position : absolute;
+   top : 20%; 
+   left : 32%;
+   font-size : 20px;
+   font-weight: bold;
+}
+
+#jathree{
+   width :1000px;
+   height :50px;
+   position : absolute;
+   top : 20%; 
+   left : 32%;
+   font-size : 20px;
+   font-weight: bold;
+}
+
+#jafour{
+   width :1000px;
+   height :50px;
+   position : absolute;
+   top : 20%; 
+   left : 32%;
+   font-size : 20px;
+   font-weight: bold;
+}
+
+#jafive{
+   width :1000px;
+   height :50px;
+   position : absolute;
+   top : 20%; 
+   left : 32%;
+   font-size : 20px;
+   font-weight: bold;
+}
+
+#jasix{
+   width :1000px;
+   height :50px;
+   position : absolute;
+   top : 20%; 
+   left : 32%;
+   font-size : 20px;
+   font-weight: bold;
+}
+
+#jaseven{
+   width :1000px;
+   height :50px;
+   position : absolute;
+   top : 20%; 
+   left : 32%;
+   font-size : 20px;
+   font-weight: bold;
+}
+
+#jaeight{
+   width :1000px;
+   height :50px;
+   position : absolute;
+   top : 20%; 
+   left : 32%;
+   font-size : 20px;
+   font-weight: bold;
+}
+
+p{
+ top : 40%; 
+   left : 65%;	
+}
+

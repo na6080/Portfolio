@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상세페이지</title> 
+<link rel="stylesheet" href="../css/sangpage.css" type="text/css"/>
+<link rel="stylesheet" href="../css/skills.css" type="text/css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
+<script type="text/javascript" src="../js/sangpage.js"></script>
+</head>
+<body>
+	<div>
+	<a href="../index.html">
+	<img src='../image/뒤로가기.svg' width='200px' height='100px' style="margin-top: 100px;" alt="뒤로가기"/>
+	</a></div>
+	<div>
+	<img src="../image/뮤지컬_웃는남자.JPG" id='image1'>
+	</div>
+	<div>
+	<iframe id='young' width="600" height="400" src="https://www.youtube.com/embed/UOu9BRMgPQs" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div>
+	<button id='jafive'type="button" class="btn btn-outline-dark">좌석보기</button>
+	</div>
+	
+	<div id="sang" style="font-family:'Impact', 'Charcoal', sans-serif; position: relative; left: 53%; top: 600px;">
+	<h4>장소 : 세종문화회관 대극장</h4>
+	<h5>예매가능시간: 관람 4시간 전까지</h5>
+	<h4>공지사항</h4>
+	<h6>※ 회차당 1인 4매 구매 가능합니다.	<br/>
+		※ 예매 모니터링을 실시하고 있으며 부정예매로 판명된 경우나 불법적인 경로로 판매/구입한 티켓은 예고없이 강제 취소될 수 있습니다.	<br/>
+		※ 예매자 본인일 경우 실물 신분증을 지참하시는 것이 제일 정확합니다.<br/>
+
+		※ 예매자 본인이 아닐 경우 또는 실물 신분증 미지잠일 경우 아래 두 가지 모두 확인해주셔야 티켓수령이 가능합니다.
+	</h6>
+	</div>
+	
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse justify-content-center"
+				id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link dropdown-toggle"
+						href="#" id="mu" role="button" data-bs-toggle="dropdown"
+						aria-expanded="false">뮤지컬</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="#">추천뮤지컬</a>
+						<img src="../image/뮤지컬_레드북.JPG" width="200px" height="280px" id="image9">
+						<img src="../image/뮤지컬_맘마미아.JPG" width="200px" height="280px" id="image10">
+						<img src="../image/뮤지컬_영웅.JPG" width="200px" height="280px" id="image11"></li>
+						</ul></li>
+					<li class="nav-item"><a class="nav-link dropdown-toggle"
+						href="#" id="un" role="button" data-bs-toggle="dropdown"
+						aria-expanded="false">연극</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">추천연극</a>
+							<img src="../image/연극_루맨.JPG" width="200px" height="280px" id="image12">
+							<img src="../image/연극_자취.JPG" width="200px" height="280px" id="image13">
+							<img src="../image/연극_카지노.JPG" width="200px" height="280px" id="image14">
+							</li>
+						</ul></li>
+					<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="ji" role="button" data-bs-toggle="dropdown" aria-expanded="false">지역</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="gyeonggi.html">경기</a> 
+						<a class="dropdown-item" href="seoul1.html">서울</a> 
+						<a class="dropdown-item" href="Incheon.html">인천</a> 
+						<a class="dropdown-item" href="busan.html">부산</a></li></li>
+						</ul></li>
+				</ul>
+				<div class="navbar-buttons">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="review.html">후기쓰기</a></li>
+						<li class="nav-item"><a class="nav-link" href="sign.html#signin">로그인</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">내정보</a></li>
+					</ul>
+				</div>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search"
+						aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">검색</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- 별점 총합 -->
+<div class="container" id="innerfive">
+  <div class="inner">
+    <div class="rating">
+      <span class="rating-num">4.4</span>
+      <div class="rating-stars">
+        <span><i class="active icon-star"></i></span>
+        <span><i class="active icon-star"></i></span>
+        <span><i class="active icon-star"></i></span>
+        <span><i class="active icon-star"></i></span>
+        <span><i class="icon-star"></i></span>
+      </div>
+      <div class="rating-users">
+        <i class="icon-user"></i> 1,014,004 total
+      </div>
+    </div>
+    
+    <div class="histo">
+      <div class="five histo-rate">
+        <span class="histo-star">
+          <i class="active icon-star"></i> 5           </span>
+        <span class="bar-block">
+          <span id="bar-five" class="bar">
+            <span>566,784</span>&nbsp;
+          </span> 
+        </span>
+      </div>
+      
+      <div class="four histo-rate">
+        <span class="histo-star">
+          <i class="active icon-star"></i> 4           </span>
+        <span class="bar-block">
+          <span id="bar-four" class="bar">
+            <span>171,298</span>&nbsp;
+          </span> 
+        </span>
+      </div> 
+      
+      <div class="three histo-rate">
+        <span class="histo-star">
+          <i class="active icon-star"></i> 3           </span>
+        <span class="bar-block">
+          <span id="bar-three" class="bar">
+            <span>136,457</span>&nbsp;
+          </span> 
+        </span>
+      </div>
+      
+      <div class="two histo-rate">
+        <span class="histo-star">
+          <i class="active icon-star"></i> 2           </span>
+        <span class="bar-block">
+          <span id="bar-two" class="bar">
+            <span>94,940</span>&nbsp;
+          </span> 
+        </span>
+      </div>
+      
+      <div class="one histo-rate">
+        <span class="histo-star">
+          <i class="active icon-star"></i> 1           </span>
+        <span class="bar-block">
+          <span id="bar-one" class="bar">
+            <span>44,525</span>&nbsp;
+          </span> 
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- HTML 코드 -->
+  <div class="container">
+    <!-- ... -->
+  </div>
+
+  <!-- jQuery 라이브러리 로드 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- JavaScript 코드 -->
+  <script>
+    $(document).ready(function() {
+      $('.bar span').hide();
+      $('#bar-five').animate({
+         width: '75%'}, 1000);
+      $('#bar-four').animate({
+         width: '35%'}, 1000);
+      $('#bar-three').animate({
+         width: '20%'}, 1000);
+      $('#bar-two').animate({
+         width: '10%'}, 1000);
+      $('#bar-one').animate({
+         width: '7%'}, 1000);
+
+      setTimeout(function() {
+        $('.bar span').fadeIn('slow');
+      }, 1000);
+    });
+  </script>
+
+
+	
+</body>
+</html>

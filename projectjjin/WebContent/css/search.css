@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* 현재 선택된 검색어 */
+.autocomplete > div.active {
+  background: #e0e5f6;
+  color: #000;
+}
+
+/* -------------------------- */
+
+.autocomplete > div {
+  background: #f1f3f499;
+  padding: .2rem .6rem;
+}
+
+section {
+  width: 500px;
+  padding: 1.5rem 1.6rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .05);  
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  margin-top: 2rem;
+}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  word-break: break-all;
+  font-family: Pretendard;
+}
+
+input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 5px;
+  padding: 0 1rem;
+  border: 1px solid #e0e5f6;
+  background: #fff;
+  margin: 1rem 0;
+}
+
+input::placeholder {
+  font-size: 1rem;
+}
+
+body {
+  background: #f7f8fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mark {
+  background: #febf0090;
+}
+
+p {
+  opacity: .8;
+  font-size: 15px;
+}
+
+.d-flex.expanded {
+  width: 200px; /* 초기 네비게이션 바의 너비 설정 */
+  transition: width 0.3s ease;
+  overflow: hidden; /* 네비게이션 바 내용의 넘침을 숨깁니다. */
+}
+
+.form-control {
+  transition: width 0.3s ease;
+}
+
+.d-flex .autocomplete.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.d-flex.expanded {
+  width: auto; /* 검색어가 있을 때 네비게이션 바를 자동으로 확장합니다. */
+}
+
+.autocomplete {
+  position: absolute;
+  top: 100%; /* 메뉴바 아래에 표시되도록 설정 */
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  z-index: 999;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0px solid #ffffff;
+}
+
+
+
+
+
