@@ -1,3 +1,0 @@
-계정
-id : lja
-pw : pass
